@@ -35,3 +35,26 @@
     width: 6.5rem;
     margin: 0.25rem 1.75rem;
 }
+
+@media screen and (max-width: 640px) {
+    .contactTitle {
+        font-size: 2.75rem;
+    }
+
+    .link {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .links {
+        max-width: 20rem;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .links {
+        max-width: 10rem;
+    }
+}

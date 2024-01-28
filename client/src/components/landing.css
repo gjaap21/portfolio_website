@@ -1,5 +1,5 @@
 #landing {
-    height: calc(100vh - 4rem); /*to not interfere with the navbar */
+    height: 75vh;
     width: 100vw;
     max-width: 80rem;
     margin: 0 auto;
@@ -62,6 +62,7 @@
 
 @media screen and (max-width: 500px) {
     .landingText {
+        padding: 1.25rem;
         font-size: 2rem;
     }
     .hi {
