@@ -1,0 +1,92 @@
+#landing {
+    height: calc(100vh - 4rem); /*to not interfere with the navbar */
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.me {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 55vh;
+}
+
+.landingText {
+    height: 70vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: #9A7B4F;
+}
+
+.introParagraph {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 860px) {
+    .me {
+        right: -10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .landingText {
+        font-size: 2.5rem;
+    }
+    .hi {
+        font-size: 1.5rem;
+    }
+    .introParagraph {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .landingText {
+        font-size: 2rem;
+    }
+    .hi {
+        font-size: 1.2rem;
+    }
+    .introParagraph {
+        font-size: .7rem;
+    }
+    .me {
+        height: 45vh;
+        top: 4rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .landingText {
+        font-size: 1.8rem;
+    }
+    .hi {
+        font-size: 1rem;
+    }
+    .introParagraph {
+        font-size: .7rem;
+    }
+    .me {
+        right: -20vw;
+    }
+}
