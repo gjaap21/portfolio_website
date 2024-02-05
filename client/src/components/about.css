@@ -1,12 +1,9 @@
 #about {
     overflow: hidden;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 68rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -14,17 +11,132 @@
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
+    align-self: center;
 }
 
 .aboutDescription {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 300;
     letter-spacing: 1px;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
+    text-align: center;
 }
 
 .resume {
+    color: #9A7B4F;
+}
+
+.portfolio {
+    margin: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.portfolioHeading {
+    background: #9A7B4F;
+    width: 50vw;
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+.portfolioSubsection {
+    padding-top: 1.5rem;
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.schoolName {
+    display: inline;
+    float: left;
+    text-align: left;
+}
+
+.gradDate {
+    display: inline;
+    float: right;
+    text-align: right;
+}
+
+.degree {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+
+.gpa {
+    display: inline;
+    float: right;
+    text-align: right;
+}
+
+.courseTitle {
+    display: inline;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin-top: 0.75rem;
+}
+
+.courses {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.skillsTitle {
+    display: inline;
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin-top: 0.75rem;
+}
+
+.skills {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.jobName {
+    display: inline;
+    float: left;
+    text-align: left;
+}
+
+.workDate {
+    display: inline;
+    float: right;
+    text-align: right;
+}
+
+.jobDescription {
+    list-style-type: square;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: .5rem;
+}
+
+.resume2 {
     height: 72rem;
     width: 53rem;
 }

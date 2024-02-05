@@ -1,5 +1,6 @@
 #contact {
-    min-height: calc(100vh - 4rem);
+    /* min-height: calc(100vh - 4rem); */
+    min-height: 60vh;
     width: 100vw;
     max-width: 60rem;
     margin: 0 auto;
@@ -10,6 +11,7 @@
 
 .contactTitle {
     font-size: 3rem;
+    margin-top: 25vh;
 }
 
 .contactDescription {
@@ -19,7 +21,7 @@
 }
 
 .links {
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;

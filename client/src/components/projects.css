@@ -1,0 +1,43 @@
+#projects {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 68rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.projectsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.5rem;
+    align-self: center;
+}
+
+.projectName {
+    display: inline;
+    float: left;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #9A7B4F;
+}
+
+.projectLanguage {
+    display: inline;
+    float: right;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.projectDescription {
+    list-style-type: square;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
