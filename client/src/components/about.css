@@ -72,7 +72,6 @@
     float: left;
     text-align: left;
     font-weight: 300;
-    font-size: 1.1rem;
     margin-left: 2rem;
 }
 
@@ -136,7 +135,76 @@
     margin-top: .5rem;
 }
 
-.resume2 {
-    height: 72rem;
-    width: 53rem;
+@media screen and (max-width: 600px) {
+    .aboutTitle {
+        font-size: 2.5rem;
+    }
+    .portfolioHeading {
+        font-size: 1.6rem;
+    }
+    .aboutDescription {
+        font-size: 1rem;
+    }
+    .portfolio {
+        font-size: .9rem;
+    }
+    .courses {
+        font-size: .8rem;
+    }
+    .skills {
+        font-size: .8rem;
+    }
+    .jobDescription {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutTitle {
+        font-size: 2rem;
+    }
+    .portfolioHeading {
+        font-size: 1.3rem;
+    }
+    .aboutDescription {
+        font-size: .9rem;
+    }
+    .portfolio {
+        font-size: .8rem;
+    }
+    .courses {
+        font-size: .7rem;
+    }
+    .skills {
+        font-size: .7rem;
+    }
+    .jobDescription {
+        font-size: .7rem;
+        margin-left: 2rem;
+        margin-top: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aboutTitle {
+        font-size: 1.8rem;
+    }
+    .portfolioHeading {
+        font-size: 1.1rem;
+    }
+    .aboutDescription {
+        font-size: .8rem;
+    }
+    .portfolio {
+        font-size: .7rem;
+    }
+    .courses {
+        font-size: .7rem;
+    }
+    .skills {
+        font-size: .7rem;
+    }
+    .jobDescription {
+        font-size: .7rem;
+    }
 }

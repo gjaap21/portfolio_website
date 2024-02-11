@@ -41,3 +41,92 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.imageDescription {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoshopImg {
+    object-fit: contain;
+    height: 40vh;
+}
+
+@media screen and (max-width: 1400px) {
+    .imageDescription {
+        height: 30vh;
+    }
+    .photoshopImg {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .imageDescription {
+        height: 25vh;
+    }
+    .photoshopImg {
+        height: 25vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projectsTitle {
+        font-size: 2.5rem;
+    }
+    .projectName {
+        font-size: 1.4rem;
+    }
+    .projectLanguage {
+        font-size: 1.4rem;
+    }
+    .projectDescription {
+        font-size: .8rem;
+    }
+    .imageDescription{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projectsTitle {
+        font-size: 2rem;
+    }
+    .projectName {
+        font-size: 1.2rem;
+    }
+    .projectLanguage {
+        font-size: 1.2rem;
+    }
+    .projectDescription {
+        font-size: .7rem;
+        margin-left: 2rem;
+    }
+    .imageDescription{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .projectsTitle {
+        font-size: 1.8rem;
+    }
+    .projectName {
+        font-size: 1rem;
+    }
+    .projectLanguage {
+        font-size: 1rem;
+    }
+    .projectDescription {
+        font-size: .7rem;
+    }
+    .imageDescription{
+        font-size: .6rem;
+    }
+}

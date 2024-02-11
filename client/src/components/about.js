@@ -53,7 +53,6 @@ const About = () => {
             </p>
         </div>
 
-        {/* <iframe className='resume2' title='Resume' src={resume}></iframe> */}
     </section>
 };
 
