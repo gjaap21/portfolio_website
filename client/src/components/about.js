@@ -7,8 +7,8 @@ const About = () => {
         <h1 className='aboutTitle'>About Me</h1>
         <p className='aboutDescription'>I'm a Computer Science major with a minor in Mechanical 
         Engineering at the Massachusetts Institute of Technology. I plan to graduate in June of 2025 and 
-        hope to learn as much as I can before then. I'm comfortable using Python, C, Typescript, 
-        Javascript, React, HTML, CSS, Git, and Assembly, but I'm always willing to expand my skillset and 
+        hope to learn as much as I can before then. I'm comfortable using Python, C, TypeScript, 
+        JavaScript, React, HTML, CSS, Git, and Assembly, but I'm always willing to expand my skillset and 
         work on new projects! Here is a copy of my <a className='resume' href={resume} target='_blank' 
         rel='noreferrer'>resume</a>.
         </p>
@@ -30,7 +30,7 @@ const About = () => {
                     Mathematics for Computer Science</span>
                 <br/>
                 <span className='skillsTitle'>Technical Skills:</span>
-                <span className='skills'>Considerable experience with Python, C, Typescript, Javascript,
+                <span className='skills'>Considerable experience with Python, C, TypeScript, JavaScript,
                 React, HTML, CSS, Git, and Assembly.</span>
             </p>
             <h2 className='portfolioHeading'>Employment</h2>

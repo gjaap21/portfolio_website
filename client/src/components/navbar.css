@@ -54,3 +54,41 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #9A7B4F;
 }
+
+.menuButton {
+    display: none;
+    object-fit: cover;
+    height: 2.5rem;
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+
+.mobileMenuItem {
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30, 30, 30);
+}
+
+@media screen and (max-width: 600px) {
+    .menuButton {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .contactButton {
+        display: none;
+    }
+}
