@@ -1,11 +1,13 @@
 import React from 'react';
 import './projects.css';
 import photoshop from '../assets/photoshop.png';
+import memoryGameDemo from '../assets/memoryGameDemo.mov';
+import platformerVid from '../assets/platformerVideo.mov';
 
 const Projects = () => {
     return <section id='projects'>
         <h1 className='projectsTitle'>Projects</h1>
-        <p>
+        <span>
             <span className='projectName'>Personal Website</span>
             <span className='projectLanguage'>React</span>
             <br/>
@@ -31,7 +33,7 @@ const Projects = () => {
             </ul>
             <p className='imageDescription'>Example image built with this tool using images as png files
                 and user-defined captions.
-                <img src={photoshop} alt='Demonstration' className='photoshopImg'/>
+                <img src={photoshop} alt='Demonstration' className='projectImg'/>
             </p>
             <br/>
             <span className='projectName'>Platformer Game</span>
@@ -47,6 +49,13 @@ const Projects = () => {
                 vectors to correct collisions
                 </li>
             </ul>
+            <p className='imageDescription'>Video demonstration of the collision detection algorithm
+                in action.
+                <video controls='controls' className='memoryVid'>
+                    <source src={platformerVid} alt='Demonstration'/>
+                </video>
+            </p>
+            <br/>
             <span className='projectName'>Card Matching Game</span>
             <span className='projectLanguage'>Typescript</span>
             <br/>
@@ -58,7 +67,13 @@ const Projects = () => {
                 Substantial work with abstract data types and keeping them safe from rep exposure
                 </li>
             </ul>
-        </p>
+            <p className='imageDescription'>Video demonstration of the concurrent blocking system
+                used in the game.
+                <video controls='controls' className='memoryVid'>
+                    <source src={memoryGameDemo} alt='Demonstration'/>
+                </video>
+            </p>
+        </span>
     </section>
 }
 

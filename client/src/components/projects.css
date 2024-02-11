@@ -11,7 +11,7 @@
 .projectsTitle {
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 5rem;
+    padding-top: 7rem;
     margin-bottom: 1.5rem;
     align-self: center;
 }
@@ -48,22 +48,31 @@
     display: flex;
     height: 40vh;
     margin: auto;
+    margin-left: 6rem;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.photoshopImg {
+.projectImg {
+    object-fit: contain;
+    height: 40vh;
+}
+
+.memoryVid {
     object-fit: contain;
     height: 40vh;
 }
 
 @media screen and (max-width: 1400px) {
     .imageDescription {
-        height: 30vh;
+        height: 35vh;
     }
-    .photoshopImg {
-        height: 30vh;
+    .projectImg {
+        height: 35vh;
+    }
+    .memoryVid {
+        height: 35vh;
     }
 }
 
@@ -71,7 +80,10 @@
     .imageDescription {
         height: 25vh;
     }
-    .photoshopImg {
+    .projectImg {
+        height: 25vh;
+    }
+    .memoryVid {
         height: 25vh;
     }
 }
@@ -90,7 +102,11 @@
         font-size: .8rem;
     }
     .imageDescription{
+        margin-left: 4rem;
         font-size: .8rem;
+    }
+    .memoryVid {
+        height: 20vh;
     }
 }
 
@@ -109,7 +125,8 @@
         margin-left: 2rem;
     }
     .imageDescription{
-        font-size: .7rem;
+        font-size: .6rem;
+        margin-left: 3rem;
     }
 }
 
@@ -127,6 +144,7 @@
         font-size: .7rem;
     }
     .imageDescription{
-        font-size: .6rem;
+        font-size: .5rem;
+        margin-left: 2.5rem;
     }
 }

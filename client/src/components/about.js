@@ -34,7 +34,7 @@ const About = () => {
                 React, HTML, CSS, Git, and Assembly.</span>
             </p>
             <h2 className='portfolioHeading'>Employment</h2>
-            <p className='portfolioSubsection'>
+            <span className='portfolioSubsection'>
                 <span className='jobName'>Orchard Machinery Corporation Intern</span>
                 <span className='workDate'>June 2022 - August 2022</span>
                 <br/>
@@ -50,7 +50,7 @@ const About = () => {
                     as modeling a conveyor belt assembly for a new machine
                     </li>
                 </ul>
-            </p>
+            </span>
         </div>
 
     </section>
