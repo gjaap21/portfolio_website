@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 500px) {
     .landingText {
-        padding: 1.25rem;
+        padding: 1rem;
         font-size: 2rem;
     }
     .hi {
